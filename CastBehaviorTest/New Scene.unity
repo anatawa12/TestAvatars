@@ -123,6 +123,232 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &93857868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93857869}
+  - component: {fileID: 93857870}
+  m_Layer: 0
+  m_Name: Bool(1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &93857869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93857868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 776147940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &93857870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93857868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Control:
+    name: 
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: BoolTest
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: 
+    labels: []
+  MenuSource: 0
+  menuSource_otherObjectChildren: {fileID: 0}
+  isSynced: 1
+  isSaved: 1
+--- !u!1 &268617026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268617027}
+  - component: {fileID: 268617028}
+  m_Layer: 0
+  m_Name: Bool(0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268617027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268617026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 776147940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &268617028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268617026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Control:
+    name: 
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: BoolTest
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: 
+    labels: []
+  MenuSource: 0
+  menuSource_otherObjectChildren: {fileID: 0}
+  isSynced: 1
+  isSaved: 1
+--- !u!1 &503986709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503986712}
+  - component: {fileID: 503986711}
+  - component: {fileID: 503986710}
+  m_Layer: 0
+  m_Name: Avatars 3.0 Emulator Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &503986710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503986709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754c8aa70fe54f1cb0c3a5cd881838cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSocket: 0
+  disableOSC: 0
+  resendAllParameters: 0
+  udpPort: 9000
+  outgoingUdpIp: 127.0.0.1
+  outgoingUdpPort: 9001
+  commandLine: 
+  localPort: 0
+  localIp: 
+  numberOfOSCMessages: 0
+  avatarDescriptor: {fileID: 0}
+  forwardToAllAvatarsInScene: 0
+  alwaysShowOSCGizmos: 1
+  clearGizmos: 0
+  GizmoFilledColor: {r: 1, g: 0, b: 1, a: 0.1}
+  GizmoBackgroundColor: {r: 0.75, g: 0, b: 0.6, a: 0.05}
+  GizmoOutlineColor: {r: 0.9, g: 0.7, b: 0.8, a: 0.5}
+  GizmoTextColor: {r: 1, g: 0.8, b: 1, a: 0.9}
+  GizmoShowSenderIP: 0
+  sendLoopbackOSCReplies: 0
+  debugPrintReceivedMessages: 0
+--- !u!114 &503986711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503986709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70803509c1e54a23bf0f4a227c4edf8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VisitOurGithub: https://github.com/lyuma/Av3Emulator
+  ViewREADMEManual: 0
+  ViewChangelog: 0
+  ViewMITLicense: 0
+  SendBugsOrFeedback: 0
+  DefaultToVR: 0
+  DefaultPose: 0
+  DefaultTrackingType: 3
+  DefaultAnimatorToDebug: 0
+  DescriptorColliders: -1
+  RestartEmulator: 0
+  legacySubAnimatorParameterDriverMode: 0
+  disableRadialMenu: 0
+  EnableAvatarScaling: 1
+  RunPreprocessAvatarHook: 1
+  DisableAvatarDynamicsIntegration: 0
+  WorkaroundPlayModeScriptCompile: 1
+  DisableParentConstraintOffsetScaling: 1
+  EnableClothScalingFix: 1
+  CreateNonLocalClone: 0
+  CreateNonLocalCloneCount: 0
+  DisableMirrorClone: 0
+  DisableShadowClone: 0
+  EnableHeadScaling: 0
+  ViewMirrorReflection: 0
+  ViewBothRealAndMirror: 0
+  VisuallyOffsetClonesOnly: 1
+  ApplyClonePositionOffset: 0
+--- !u!4 &503986712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503986709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &561028212
 GameObject:
   m_ObjectHideFlags: 1
@@ -167,65 +393,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &662468301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 662468302}
-  - component: {fileID: 662468303}
-  m_Layer: 0
-  m_Name: Int0.5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &662468302
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662468301}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 776147940}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &662468303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662468301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Control:
-    name: 
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Int0.5
-    value: 0.5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  MenuSource: 0
-  menuSource_otherObjectChildren: {fileID: 0}
-  isSynced: 1
-  isSaved: 1
 --- !u!1 &689361526
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,11 +485,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1067894373}
   - {fileID: 689361527}
-  - {fileID: 662468302}
-  - {fileID: 1844679877}
-  - {fileID: 1587180430}
-  - {fileID: 782303963}
+  - {fileID: 268617027}
+  - {fileID: 93857869}
+  - {fileID: 1615727946}
+  - {fileID: 1493979510}
   m_Father: {fileID: 1524338272}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &776147941
@@ -362,11 +530,21 @@ MonoBehaviour:
     saved: 0
     hasExplicitDefaultValue: 0
     m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: AddOne
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 0
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
   - nameOrPrefix: Int0.5
     remapTo: 
     internalParameter: 0
     isPrefix: 0
-    syncType: 2
+    syncType: 0
     localOnly: 0
     defaultValue: 0
     saved: 0
@@ -376,7 +554,7 @@ MonoBehaviour:
     remapTo: 
     internalParameter: 0
     isPrefix: 0
-    syncType: 2
+    syncType: 0
     localOnly: 0
     defaultValue: 0
     saved: 0
@@ -398,6 +576,26 @@ MonoBehaviour:
     isPrefix: 0
     syncType: 0
     localOnly: 0
+    defaultValue: 0
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: BoolTest
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 2
+    localOnly: 1
+    defaultValue: 0
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: IntToBoolTest
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 1
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 0
@@ -435,7 +633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 0}
---- !u!1 &782303962
+--- !u!1 &1067894372
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,22 +641,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 782303963}
-  - component: {fileID: 782303964}
+  - component: {fileID: 1067894373}
+  - component: {fileID: 1067894374}
   m_Layer: 0
-  m_Name: Int -1.5
+  m_Name: Add/SubOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &782303963
+--- !u!4 &1067894373
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782303962}
+  m_GameObject: {fileID: 1067894372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -467,13 +665,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776147940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &782303964
+--- !u!114 &1067894374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782303962}
+  m_GameObject: {fileID: 1067894372}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
@@ -484,8 +682,8 @@ MonoBehaviour:
     icon: {fileID: 0}
     type: 101
     parameter:
-      name: Int-1.5
-    value: -1.5
+      name: AddOne
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -586,6 +784,163 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1481749130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481749133}
+  - component: {fileID: 1481749132}
+  - component: {fileID: 1481749131}
+  m_Layer: 0
+  m_Name: New Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &1481749131
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481749130}
+  m_Text: AnimatorCastTest
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1481749132
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481749130}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &1481749133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481749130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.76059854, y: -0.11146402, z: -1.6733797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493979509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493979510}
+  - component: {fileID: 1493979511}
+  m_Layer: 0
+  m_Name: Bool(0.5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493979510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493979509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 776147940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1493979511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493979509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Control:
+    name: 
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: BoolTest
+    value: 0.5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: 
+    labels: []
+  MenuSource: 0
+  menuSource_otherObjectChildren: {fileID: 0}
+  isSynced: 1
+  isSaved: 1
 --- !u!1001 &1524338271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -594,6 +949,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: unityVersion
+      value: 2022.3.6f1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: expressionsMenu
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f230ce5b3b694aaa9ca73426fd2a9ba,
+        type: 2}
     - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
         type: 3}
       propertyPath: collider_head.position.x
@@ -654,6 +1020,691 @@ PrefabInstance:
       propertyPath: collider_torso.position.z
       value: -0.0041914806
       objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.size
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].hash
+      value: 290280920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[0].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].hash
+      value: -1963515926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[1].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].hash
+      value: 1277510394
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[2].name
+      value: HandGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].hash
+      value: 94875229
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[3].name
+      value: HandOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].hash
+      value: -976048014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[4].name
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].hash
+      value: 810892064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[5].name
+      value: FingerPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].hash
+      value: 935782528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[6].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].hash
+      value: -1434608151
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[7].name
+      value: ThumbsUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].hash
+      value: -1374096996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[8].name
+      value: Grab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].hash
+      value: -126341868
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[9].name
+      value: During Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[10].hash
+      value: 1316642883
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[10].name
+      value: Out of Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[11].hash
+      value: -1633824845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[11].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[12].hash
+      value: 1781153929
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[12].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[13].hash
+      value: -1007298415
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[13].name
+      value: HandGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[14].hash
+      value: -548878825
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[14].name
+      value: HandOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[15].hash
+      value: 1241655833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[15].name
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[16].hash
+      value: -792121942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[16].name
+      value: FingerPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].hash
+      value: -1592414362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].hash
+      value: 1888679331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].name
+      value: ThumbsUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].hash
+      value: 1321578239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].name
+      value: Grab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].hash
+      value: 2076329295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].name
+      value: Out of Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].hash
+      value: -843053032
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].name
+      value: During Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].hash
+      value: -682666003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].name
+      value: Defaults
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].hash
+      value: 1363522512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].name
+      value: InStation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].hash
+      value: 290280920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].hash
+      value: -1963515926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].hash
+      value: 1277510394
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].name
+      value: HandGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].hash
+      value: 94875229
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].name
+      value: HandOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].hash
+      value: -976048014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].name
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].hash
+      value: 810892064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].name
+      value: FingerPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].hash
+      value: 935782528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].hash
+      value: -1434608151
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].name
+      value: ThumbsUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].hash
+      value: -97714823
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].name
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].hash
+      value: -1633824845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].hash
+      value: 1781153929
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].hash
+      value: -1007298415
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].name
+      value: HandGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].hash
+      value: -548878825
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].name
+      value: HandOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].hash
+      value: 1241655833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].name
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].hash
+      value: -792121942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].name
+      value: FingerPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].hash
+      value: -1592414362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].hash
+      value: 1888679331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].name
+      value: ThumbsUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].hash
+      value: 1979475730
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[41].name
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].hash
+      value: 578211767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[42].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].hash
+      value: -921213162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[43].name
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].hash
+      value: -268569334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[44].name
+      value: sankaku
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].hash
+      value: 1071505801
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[45].name
+      value: O
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].hash
+      value: -849498134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[46].name
+      value: omega
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].hash
+      value: 1538672969
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[47].name
+      value: V
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].hash
+      value: 847353666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[48].name
+      value: O_mini
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].hash
+      value: -89143876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[49].name
+      value: kuri
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[50].hash
+      value: -902226546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[50].name
+      value: Neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[51].hash
+      value: 559461679
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[51].name
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[52].hash
+      value: -559632793
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[52].name
+      value: jito
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[53].hash
+      value: -1409237932
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[53].name
+      value: hau
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[54].hash
+      value: -16832490
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[54].name
+      value: shirome
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[55].hash
+      value: -510448821
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[55].name
+      value: smile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[56].hash
+      value: -2024735418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[56].name
+      value: shitake
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[57].hash
+      value: -1264599252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[57].name
+      value: suya
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[58].hash
+      value: -1772305833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[58].name
+      value: small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[59].hash
+      value: -1675661455
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[59].name
+      value: On
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[60].hash
+      value: -1718288595
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[60].name
+      value: Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[61].hash
+      value: 2070379573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[61].name
+      value: ClothOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[62].hash
+      value: -389938505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[62].name
+      value: ClothOff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[63].hash
+      value: -2035375824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[63].name
+      value: Live
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[64].hash
+      value: 817198012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[64].name
+      value: AFK
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[65].hash
+      value: 828045816
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[65].name
+      value: Emote Die
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[66].hash
+      value: 570366678
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[66].name
+      value: Lipsyncing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[67].hash
+      value: 187313424
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331119022033933472, guid: 495ee3548a6d301468a3930b8f8e6a89,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[67].name
+      value: Mute
+      objectReference: {fileID: 0}
     - target: {fileID: 5084395478870679542, guid: 495ee3548a6d301468a3930b8f8e6a89,
         type: 3}
       propertyPath: m_Name
@@ -662,7 +1713,7 @@ PrefabInstance:
     - target: {fileID: 8420578479713143957, guid: 495ee3548a6d301468a3930b8f8e6a89,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_352079d3-75f4-400f-8714-d202212e6f11
+      value: avtr_d9aa2115-5f00-40d6-9e24-1ec8f6e7c7ff
       objectReference: {fileID: 0}
     - target: {fileID: 9144728520769284364, guid: 495ee3548a6d301468a3930b8f8e6a89,
         type: 3}
@@ -824,7 +1875,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1587180429
+--- !u!1 &1615727945
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -832,22 +1883,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1587180430}
-  - component: {fileID: 1587180431}
+  - component: {fileID: 1615727946}
+  - component: {fileID: 1615727947}
   m_Layer: 0
-  m_Name: Int -0.5
+  m_Name: Bool(-1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1587180430
+--- !u!4 &1615727946
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587180429}
+  m_GameObject: {fileID: 1615727945}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -856,13 +1907,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776147940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1587180431
+--- !u!114 &1615727947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587180429}
+  m_GameObject: {fileID: 1615727945}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
@@ -873,70 +1924,12 @@ MonoBehaviour:
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: Int-0.5
-    value: -0.5
+      name: BoolTest
+    value: -1
     style: 0
     subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  MenuSource: 0
-  menuSource_otherObjectChildren: {fileID: 0}
-  isSynced: 1
-  isSaved: 1
---- !u!1 &1844679876
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1844679877}
-  - component: {fileID: 1844679878}
-  m_Layer: 0
-  m_Name: Int1.5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1844679877
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844679876}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 776147940}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1844679878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844679876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b29d45007c5493d926d2cd45a489529, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Control:
-    name: 
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Int1.5
-    value: 1.5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
+    subParameters:
+    - name: 
     labels: []
   MenuSource: 0
   menuSource_otherObjectChildren: {fileID: 0}
@@ -950,3 +1943,5 @@ SceneRoots:
   - {fileID: 1569447657}
   - {fileID: 561028214}
   - {fileID: 1524338271}
+  - {fileID: 1481749133}
+  - {fileID: 503986712}
