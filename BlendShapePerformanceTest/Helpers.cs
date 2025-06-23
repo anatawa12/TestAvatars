@@ -75,11 +75,13 @@ namespace TestAvatars.BlendShapePerformanceTest
             mergeSMRGO.transform.localRotation = Quaternion.identity;
             mergeSMRGO.transform.localScale = Vector3.one;
 
+            /*
             var mergeSMR = (MonoBehaviour)mergeSMRGO.AddComponent(mergeSkinnedMeshType);
             dynamic mergeSMRDynamic = mergeSMR;
             mergeSMRDynamic.Initialize(2);
             mergeSMRDynamic.MergeBlendShapes = false;
             mergeSMRDynamic.SourceSkinnedMeshRenderers.UnionWith(renderers);
+            // */
 
             Selection.activeGameObject = mergeSMRGO;
         }
