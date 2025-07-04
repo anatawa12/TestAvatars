@@ -1,15 +1,15 @@
 ﻿/* 2018-12-05 Written by Ureishi. */
+/* 2025-07-04 modified to show single float value by anatawa12. */
 
-Shader "NumberIndication/Original" {
+Shader "NumberIndication/Single Value" {
 	Properties {
-		_ColorX ("Color X", Color) = (1,0,0.5,1)
-		_ColorY ("Color Y", Color) = (0.5,1,0,1)
-		_ColorZ ("Color Z", Color) = (0,0.5,1,1)
-		_ColorW ("Color W", Color) = (1,1,1,1)
+		_Color ("Color", Color) = (1,1,1,1)
 		[IntRange]
 		_NumOfDigit ("Number of Digit", Range(5,9)) = 5
 		[IntRange]
 		_NumOfFract ("Number of Fraction", Range(1,4)) = 1
+
+		_Value ("Value", Float) = 0.0
 		
 		[NoScaleOffset]
 		_MainTex ("Character Map", 2D) = "white" {}
@@ -53,10 +53,7 @@ Shader "NumberIndication/Original" {
 		#pragma surface surf Standard alpha:fade
 		#pragma target 3.0
 		
-		fixed4 _ColorX;
-		fixed4 _ColorY;
-		fixed4 _ColorZ;
-		fixed4 _ColorW;
+		fixed4 _Color;
 		uint _NumOfDigit;
 		uint _NumOfFract;
 		sampler2D _MainTex;
@@ -64,6 +61,7 @@ Shader "NumberIndication/Original" {
 		half _Emission;
 		half _Smoothness;
 		half _Metallic;
+		float _Value; // The value to display
 
 		struct Input {
 			float2 uv_MainTex;
@@ -71,26 +69,7 @@ Shader "NumberIndication/Original" {
 		
 		void surf (Input IN, inout SurfaceOutputStandard o) {
 			/* ************************************************** */
-			static const uint n = 17; /* 配列の要素数を設定 */
-			const float valAry[n] = {
-				/* X */ unity_ObjectToWorld[0].w,	// Positionのx座標
-				/* Y */ unity_ObjectToWorld[1].w,	// Positionのy座標
-				/* Z */ unity_ObjectToWorld[2].w,	// Positionのz座標
-				/* W */ _Time.x,			// 経過時間[s]/20
-				/* A */ _Time.y,			// 経過時間[s]
-				/* B */ floor(_Time.y),		// 経過時間[s](小数点以下切り捨て)
-				/* C */ _Time.z,			// 経過時間[s]*2
-				/* D */ _Time.w,			// 経過時間[s]*3
-				/* E */ _SinTime.w * 360,	// 360 * sin(_Time.y)と同じ
-				/* F */ _CosTime.w * 360,	// 360 * cos(_Time.y)と同じ
-				/* G */ unity_DeltaTime.x,	// デルタ時間(1/fps)[s]
-				/* H */ unity_DeltaTime.y,	// fps[1/s]
-				/* I */ _ScreenParams.x,	// レンダリングターゲットの幅のピクセル数
-				/* J */ _ScreenParams.y,	// レンダリングターゲットの高さのピクセル数
-				/* K */ _ProjectionParams.y,// カメラのNear Plane
-				/* L */ _ProjectionParams.z,// カメラのFar Plane
-				1234.5678					// 17個目のテスト要素(17個目以降はまたXから繰り返し)
-			}; /* (注意)最後の要素にはカンマは付きません */
+			static const uint n = 1; // we only have 1 value to display
 			/* ************************************************** */
 			static const uint rdx = 10;
 			const uint nod = _NumOfDigit;
@@ -103,23 +82,19 @@ Shader "NumberIndication/Original" {
 			const uint2 crc = floor(uv*norc) * int2(1,-1) + int2(0,noC-1);
 			const float2 fuv = frac(uv*norc);
 			const uint2 cut = _CharCut.xy;
-			const int val = valAry[crc.y] * round(pow((float)rdx, nof));
+			const int val = _Value * round(pow((float)rdx, nof));
 			const int sgn = val < 0? -1:1;
 			const uint nth = noR - 2 - crc.x + (crc.x>noi+2?1:0);
 			const uint expRdx = round(pow((float)rdx, nth));
 			const uint dgt =
-				crc.x == 0? 16 + crc.y%16 :
+				crc.x == 0? 15 : // blank
 				crc.x == 1? (10*2 + uint(1-sgn))/2 :
 				crc.x == noi+2? 13 :
 				crc.y < n? (uint(sgn*val)/expRdx)%rdx : 0;
 			const float2 ruv =
 				{(fuv.x+dgt%cut.x)/cut.x, 1-((1-fuv.y)+dgt/cut.x)/cut.y};
 			const fixed4 c = tex2D(_MainTex, ruv);
-			const fixed4 clr =
-				crc.y%4 == 0? _ColorX :
-				crc.y%4 == 1? _ColorY :
-				crc.y%4 == 2? _ColorZ :
-				crc.y%4 == 3? _ColorW : 0;
+			const fixed4 clr = _Color;
 			
 			o.Albedo = c.rgb * clr.rgb;
 			o.Alpha = c.a * clr.a;
